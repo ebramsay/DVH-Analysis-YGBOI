@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="DVH Analysis.exe" version="1.0.0.7" publicKeyToken="16ccfa69ed685676" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DVH Analysis" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="DVH Analysis.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DVH Analysis.exe" size="88576">
+      <assemblyIdentity name="DVH Analysis" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QKOU4afjSoUhpDh2lci9E9lGqV8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MHOPC\eramsay" issuerKeyHash="2fd31fb461e9d0d6298b7cb3e6abd2d2536a4d84" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2CX9wQg6UdXjuFSvMxDutASiObU=</DigestValue></Reference></SignedInfo><SignatureValue>hoSWJUeMfx2M27+JNVuqzBERNK5tGZU6Mt+BVRvjtNq9w9M2N9vi0Zd/Njutqx4HIlViOX/zgj5ltxGhYLA72ys+9nT+0JYA0w3Hx0AMDCDbSXGMteENqdCuG9nRYMulAWG+nuZNqp67hJN+F1ZLAcWJZAb68pmnU825AxnnEoM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nV6Op4YZTVpTqyd8kkBcj0nqufltq/0kwSh4tRIw32VP8cjxt3ud4EDib/TBmjY1K9Pypk5jDyutOQc0WuaAiuU8dRgFX/cq2wmAz/R5BMdF+lCbt0l80C3QKDd5+/RezCjkYzchHjkeerbCiIo93Ec2nHIwimU4jvkwQP+9ai8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b539a204b4ee1033af54b8e3d5513a08c1fd25d8" Description="" Url=""><as:assemblyIdentity name="DVH Analysis.exe" version="1.0.0.7" publicKeyToken="16ccfa69ed685676" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MHOPC\eramsay</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sV/ez0HaDV9NXZElWND3Bdz98lw=</DigestValue></Reference></SignedInfo><SignatureValue>KAKMMbFaRPnApQ0ZwkGi0MGqPqLPi0AfUySino+YUZqIZ0tNVxLdJYgej8NvlK4QmbJHULEq+dzeebTPXrv4JGaMULiiQ9XheudYHe+4HMZYxrzC8Zhh8OV0E7gmdK5bGr19t5FUp8+V3DliPsWolJ4qrwvrb0QsLL1wajO1pZ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nV6Op4YZTVpTqyd8kkBcj0nqufltq/0kwSh4tRIw32VP8cjxt3ud4EDib/TBmjY1K9Pypk5jDyutOQc0WuaAiuU8dRgFX/cq2wmAz/R5BMdF+lCbt0l80C3QKDd5+/RezCjkYzchHjkeerbCiIo93Ec2nHIwimU4jvkwQP+9ai8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCATKgAwIBAgIQeMjGd11U/bdA70ZbctzmeDAJBgUrDgMCHQUAMCUxIzAhBgNVBAMeGgBNAEgATwBQAEMAXABlAHIAYQBtAHMAYQB5MB4XDTEzMDQyNDIwMTkwMVoXDTE0MDQyNTAyMTkwMVowJTEjMCEGA1UEAx4aAE0ASABPAFAAQwBcAGUAcgBhAG0AcwBhAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ1ejqeGGU1aU6snfJJAXI9J6rn5bav9JMEoeLUSMN9lT/HI8bd7neBA4m/0wZo2NSvT8qZOYw8rrTkHNFrmgIrlPHUYBV/3KtsJgM/0eQTHRfpQm7dJfNAt0Cg3efv0Xswo5GM3IR45Hnq2woiKPdxHNpxyMIplOI75MED/vWovAgMBAAEwCQYFKw4DAh0FAAOBgQBL2+FlT6K88aWUtivEYevivoBdg19lrGyNLczFj503hu5nbDzpD+kMEEyoQvAquHgdIeDPSo1Zb5xXHs8RJ+QQO1KRstKIbJkvFGt54DS/IAcniW4GSM/6bYmEyO2Za1pMYiEED6rWi6BgBKkR+ysgKy9b/8I2yxgIGzLtEFQDZw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
