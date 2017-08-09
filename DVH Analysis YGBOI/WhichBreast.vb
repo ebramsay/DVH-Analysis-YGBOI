@@ -3,6 +3,7 @@
     Dim buttonpressed As Boolean = False
     Function choicertlt()
         Me.Show()
+        ' Test comment
         Do Until buttonpressed
             If RadioButton1.Checked = True Then choice = "right"
             If RadioButton2.Checked = True Then choice = "left"
